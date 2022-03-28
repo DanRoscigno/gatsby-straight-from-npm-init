@@ -8,6 +8,8 @@ import {
     navLinkText,
     siteTitle
   } from './layout.module.css'
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+deckDeckGoHighlightElement();
 
 const Layout = ({ pageTitle, children }) => {
     const data = useStaticQuery(graphql`
