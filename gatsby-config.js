@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    `gatsby-theme-docz`,
     {
       resolve: `gatsby-plugin-page-creator`,
       options: {
